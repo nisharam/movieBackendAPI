@@ -1,0 +1,10 @@
+lib-cov
+*.log
+*.log.*
+
+
+# Dependency directory
+node_modules
+
+# Coverage reports
+coverage
