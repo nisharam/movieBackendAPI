@@ -11,9 +11,11 @@ app.use(bodyParser.json());
 
 moongoose
   .connect(
-    "mongodb://localhost:27017/movies",
+    "mongodb://127.0.0.1:27017/movies",
     { useNewUrlParser: true },
   )
+  
+  
   .catch((err) => {
     logger.info(" error connecting to database", err);
   });
